@@ -49,7 +49,7 @@ To install **PySnippets** as a Python package, follow these steps:
 
    If the package is still under development, you can install it directly from the GitHub repository:
    ```bash
-   pip install git+https://github.com/UTSAVS26/PySnippets.git
+   pip install git+https://github.com/gdgmit/PySnippets.git
    ```
 
 2. Once installed, you can import and use snippets in your Python projects.
