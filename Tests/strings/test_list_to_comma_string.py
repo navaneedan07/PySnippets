@@ -20,6 +20,8 @@ class TestListToCommaString(unittest.TestCase):
     def test_non_string_item(self):
         with self.assertRaises(ValueError):
             list_to_comma_string(["apple", 123, "cherry"])
+    def test_double_item(self):
+        self.assertEqual(list_to_comma_string(["apple","banana"]),"apple,banana")        
 
 
 if __name__ == "__main__":
